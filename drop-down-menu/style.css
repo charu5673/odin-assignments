@@ -1,0 +1,43 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.drop-down-menu
+{
+  background-color: brown;
+  color: aliceblue;
+  height: 60px;
+  aspect-ratio: 3/1;
+  width: auto;
+}
+
+.drop-down-button
+{
+  background-color: brown;
+  color: aliceblue;
+  height: 60px;
+  aspect-ratio: 3/1;
+  width: auto;
+}
+
+button.drop-down-content
+{
+  border-top: 2px solid black;
+  background-color: rgb(183, 140, 140);
+  color: rgb(61, 64, 66);
+  height: 60px;
+  aspect-ratio: 3/1;
+  width: auto;
+}
