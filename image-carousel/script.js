@@ -1,6 +1,7 @@
 let imageAdd1='./images/image',imageAdd2='.jpg',images=[];
 let prevIndex=0;
 let currentIndex=0;
+var timer=1;
 for(var i=0;i<8;i++)
 {
     images.push(imageAdd1+i+imageAdd2);
@@ -15,6 +16,7 @@ document.querySelector(".left").addEventListener("click",function(e){
     currentIndex--;
     let d=document.querySelector(".image-display").firstElementChild;
     d.src=images[currentIndex];
+    timer=1;
     updateStatus();
 });
 document.querySelector(".right").addEventListener("click",function(e){
@@ -27,6 +29,7 @@ document.querySelector(".right").addEventListener("click",function(e){
     currentIndex++;
     let d=document.querySelector(".image-display").firstElementChild;
     d.src=images[currentIndex];
+    timer=1;
     updateStatus();
 });
 
@@ -44,6 +47,31 @@ for(var i=0;i<c.length;i++)
         currentIndex=parseInt(e.target.id);
         let d=document.querySelector(".image-display").firstElementChild;
         d.src=images[currentIndex];
+        timer=1;
         updateStatus();
     });
 }
+
+setInterval(function(){
+    
+},5000);
+
+setInterval(function(){
+    console.log(timer);
+    if(timer==5)
+    {
+        prevIndex=currentIndex;
+    if(currentIndex==7)
+    {
+        currentIndex=0;
+    }
+    else
+    currentIndex++;
+    let d=document.querySelector(".image-display").firstElementChild;
+    d.src=images[currentIndex];
+    updateStatus();
+    timer=1;
+    }
+    else
+    timer++;
+},1000);
