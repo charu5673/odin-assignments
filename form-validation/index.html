@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <form novalidate>
+        <label for="email_field">E-mail</label>
+        <input type="email" id="email_field" required>
+        <label for="country_field">Country</label>
+        <input type="text" id="country_field" required>
+        <lablel for="zipcode_field">Zipcode</lablel>
+        <input type="number" min="100000" max="999999" id="zipcode_field" required>
+        <label for="password_field">Password</label>
+        <input type="password" id="password_field" minlength="8" maxlength="20" required>
+        <lablel for="confirm_field"></lablel>
+        <input type="password" id="confirm_field" required>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
