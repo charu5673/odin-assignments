@@ -21,6 +21,7 @@ console.log(fibs(17));
 
 function fibsRec(c)
 {
+    console.log("This was printed recursively");
     let a=[0,1];
     if(c==0)
         return [];
