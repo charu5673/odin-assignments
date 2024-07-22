@@ -12,3 +12,11 @@ assignment tasks for the odin project
 5. recursion: https://www.theodinproject.com/lessons/javascript-recursive-methods
 
 6. merge-sort-fibonacci: https://www.theodinproject.com/lessons/javascript-recursion
+
+7. linked-list: https://www.theodinproject.com/lessons/javascript-linked-lists
+
+8. hashmap: https://www.theodinproject.com/lessons/javascript-hashmap
+
+9. bst: https://www.theodinproject.com/lessons/javascript-binary-search-trees
+
+10. knight: https://www.theodinproject.com/lessons/javascript-knights-travails
