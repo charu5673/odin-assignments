@@ -20,3 +20,5 @@ assignment tasks for the odin project
 9. bst: https://www.theodinproject.com/lessons/javascript-binary-search-trees
 
 10. knight: https://www.theodinproject.com/lessons/javascript-knights-travails
+
+11. testing: https://www.theodinproject.com/lessons/node-path-javascript-testing-practice
